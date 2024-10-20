@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+  /* 이색이 전체적인 베이스가 되는 색으로 하겠따 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: white;
+  width: 400px;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 2%;
+  box-shadow: 2px 2px 20px black;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin: 8px;
+}
+.input-blank {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  height: 25px;
+  width: 320px;
+}
+
+#id-input {
+  height: 25px;
+  width: 235px;
+}
+#id-input-check {
+  height: 25px;
+  width: 80px;
+}
+
+#submit-input {
+  height: 20px;
+  width: 100px;
+}
