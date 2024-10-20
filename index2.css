@@ -44,4 +44,6 @@ h2 {
   padding: 3px;
   overflow: scroll;
   overflow-x: hidden;
+  color: grey;
+  font-size: small;
 }
